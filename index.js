@@ -5,7 +5,7 @@ const bodyParser = require("body-parser");
 const cors = require("cors");
 const cookieParser = require("cookie-parser");
 
-const {holdingModel} = require("./model/HoldingsModel.js");
+const {holdingModel} = require("./model/holdingsModel.js");
 const {positionModel} = require("./model/PositionsModel.js");
 const {orderModel} = require("./model/ordersModel.js");
 const authRoute = require("./Routes/AuthRoute");
